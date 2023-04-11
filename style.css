@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto:wght@400;500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #efefef;
+    padding: 0 1em;
+}
+
+.navAvatar {
+    display: flex;
+    align-items: center;
+    /* spazio tra elementi legato alla proprietà flex */
+    gap: 1rem;
+}
+
+.navAvatar img {
+    border-radius: 50%;
+    max-width: 50px;
+    margin: 5px 0;
+}
+
+.contentHero {
+    background-image: url(./img/banner-1050629__340.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.contentHero h1 {
+    margin-top: 0;
+}
+
+.heroText {
+    margin-left: 350px;
+    color: white;
+}
+
+.heroText h1, p {
+    margin: 0;
+}
+
+.heroText button {
+    width: 100px;
+    background-color: #d517e5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 7px;
+    margin-top: 5px;
+}
+
+.cardContainer {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+    margin: 20px 15px;
+}
+
+.cardContainer p {
+    padding: 0 10px;
+    display: flex;
+}
+
+.card {
+    width: 280px;
+    background-color: #ededed;
+    border-radius: 10px;
+    box-shadow: 10px;
+}
+
+.bannerCard {
+    width: 280px;
+    height: 120px;
+}
+
+.cardAvatar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 30px;
+}
+
+.cardDescription {
+    flex-direction: column;
+}
+
+.cardDescription h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.avatarCard {
+    border-radius: 50%;
+    max-width: 50px;
+    margin: 5px 0;
+}
+
+.cardB {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.cardB button {
+    width: 220px;
+    border-radius: 3px;
+    border: none;
+    padding: 7px;
+    background-color: #d9d9d9;
+    margin-top: 15px;
+}
+
+
+
+
+
